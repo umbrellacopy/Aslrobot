@@ -19,8 +19,8 @@ sudo luarocks install redis-lua
 sudo luarocks install fakeredis
 sudo luarocks install serpent
 cd ..
-git clone https://github.com/umbrellacopy/ASLbot.git
-cd ASLbot
-sudo chmod 777 launch.sh
+git clone https://github.com/umbrellacopy/ASLrobot.git
+cd ASLrobot
+sudo chmod 777 ./launch.sh
 ./launch.sh
 ```
